@@ -13,7 +13,11 @@ export default function Notification({image1}) {
                     <section className="notifications-container">
                       <div className="notification">
                         <img src={image1} alt="image" />
-                        <p><span className="name">Mark Webber</span> <span className="description">reacted to your recent post</span> <span>My first tournament today!</span> </p>
+                        <div>
+                            <p><span className="name">Mark Webber</span> <span className="description">reacted to your recent post</span> <span>My first tournament today!</span> </p>
+                            <span>time</span>
+                        </div>
+                        
                       </div>
                     </section>
                   </div>

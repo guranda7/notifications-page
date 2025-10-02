@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
+        "image": "/images/avatar-mark-webber.webp",
         "name": "Mark Webber",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
@@ -9,8 +9,8 @@
     },
     
     {
-        "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
+        "id": "2",
+        "image": "/images/avatar-angela-gray.webp",
         "name": "Mark Webber",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
@@ -18,8 +18,8 @@
     },
     
     {
-        "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
+        "id": "3",
+        "image": "/images/avatar-jacob-thompson.webp",
         "name": "Mark Webber",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
@@ -27,8 +27,8 @@
     },
     
     {
-        "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
+        "id": "4",
+        "image": "/images/avatar-rizky-hasanuddin.webp",
         "name": "Mark Webber",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
@@ -36,8 +36,8 @@
     },
     
     {
-        "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
+        "id": "5",
+        "image": "/images/avatar-kimberly-smith.webp",
         "name": "Mark Webber",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
@@ -45,8 +45,8 @@
     },
     
     {
-        "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
+        "id": "6",
+        "image": "/images/avatar-rizky-hasanuddin.webp",
         "name": "Mark Webber",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
@@ -54,26 +54,8 @@
     },
     
     {
-        "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
-        "name": "Mark Webber",
-        "description": "reacted to your recent post",
-        "post": "My first tournament today!",
-        "time": "1 day ago"
-    },
-    
-    {
-        "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
-        "name": "Mark Webber",
-        "description": "reacted to your recent post",
-        "post": "My first tournament today!",
-        "time": "1 day ago"
-    },
-    
-    {
-        "id": "1",
-        "image": "./assets/images/avatar-mark-webber.webp",
+        "id": "7",
+        "image": "/images/avatar-nathan-peterson.webp",
         "name": "Mark Webber",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
