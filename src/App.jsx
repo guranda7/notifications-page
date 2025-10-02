@@ -9,7 +9,12 @@ function App() {
 
   return (
     <>
-      <Notification image1={image1}/>
+    {
+      data.map((item) => (
+        <Notification image1={image1} name={item.name} description={item.description} />
+      ))
+    }
+      
     </>
   )
 }
