@@ -1,26 +1,20 @@
-export default function Notification({image1}) {
+import "./Notification.css"
+
+export default function Notification({image1, name, description, post, time}) {
     return (
         <div>
-            <div className="main-container">
-                    <section className="header">
-                      <div className="header-title">
-                        <span>Notifications</span>
-                        <div className="not-counter"><span>3</span></div>
-                      </div>
-                      <p className="mark-title">Mark all as read</p>
-                    </section>
-            
+           
                     <section className="notifications-container">
                       <div className="notification">
-                        <img src={image1} alt="image" />
-                        <div>
-                            <p><span className="name">Mark Webber</span> <span className="description">reacted to your recent post</span> <span>My first tournament today!</span> </p>
-                            <span>time</span>
+                        <img src={image1} alt="image" className="not-image"/>
+                        <div className="description">
+                            <p><span className="name">{name}</span><span className="description">{description}</span> <span>{post}</span> </p>
+                            
                         </div>
-                        
+                        <br/><span>{time}</span>
                       </div>
                     </section>
-                  </div>
+                 
         </div>
     )
 }

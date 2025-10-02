@@ -5,58 +5,49 @@
         "name": "Mark Webber",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
-        "time": "1 day ago"
+        "time": "1m ago"
     },
     
     {
         "id": "2",
         "image": "/images/avatar-angela-gray.webp",
-        "name": "Mark Webber",
-        "description": "reacted to your recent post",
-        "post": "My first tournament today!",
-        "time": "1 day ago"
+        "name": "Angela Grey",
+        "description": "followed you",
+        "post": "",
+        "time": "5m ago"
     },
     
     {
         "id": "3",
         "image": "/images/avatar-jacob-thompson.webp",
-        "name": "Mark Webber",
-        "description": "reacted to your recent post",
-        "post": "My first tournament today!",
+        "name": "Jacob Thompson",
+        "description": "has joined your group",
+        "post": "Chess Club",
         "time": "1 day ago"
     },
     
     {
         "id": "4",
         "image": "/images/avatar-rizky-hasanuddin.webp",
-        "name": "Mark Webber",
-        "description": "reacted to your recent post",
-        "post": "My first tournament today!",
-        "time": "1 day ago"
+        "name": "Rizky hasanuddin",
+        "description": "sent you a private message",
+        "post": "Hello, thanks for setting up the Chess Club. I’ve been a member for a few weeks now and I’m already having lots of fun and improving my game.",
+        "time": "5 days ago"
     },
     
     {
         "id": "5",
         "image": "/images/avatar-kimberly-smith.webp",
-        "name": "Mark Webber",
-        "description": "reacted to your recent post",
-        "post": "My first tournament today!",
-        "time": "1 day ago"
+        "name": "Kimberly smith",
+        "description": "commented on your picture",
+        "post": "/images/image-chess.webp",
+        "time": "!1 day ago"
     },
-    
+
     {
         "id": "6",
-        "image": "/images/avatar-rizky-hasanuddin.webp",
-        "name": "Mark Webber",
-        "description": "reacted to your recent post",
-        "post": "My first tournament today!",
-        "time": "1 day ago"
-    },
-    
-    {
-        "id": "7",
         "image": "/images/avatar-nathan-peterson.webp",
-        "name": "Mark Webber",
+        "name": "Nathan Peterson",
         "description": "reacted to your recent post",
         "post": "My first tournament today!",
         "time": "1 day ago"

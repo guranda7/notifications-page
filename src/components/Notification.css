@@ -1,0 +1,36 @@
+.notification-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.not-image {
+    width: 4.5rem;
+    height: 4.5rem;
+ 
+    opacity: 1;
+    border-width: 1px;
+
+}
+
+.name {  
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 1.6rem;
+    line-height: 100%;
+
+
+}
+.notification {
+width: 67rem;
+display: flex;
+flex-direction: row;
+gap: 1rem; 
+align-items: center;
+}
+
+.description {
+    display: flex;
+   
+}
+
