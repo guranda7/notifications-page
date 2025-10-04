@@ -4,11 +4,20 @@ import Notification from "./Notification";
 import data from "../data.json";
 
 export default function Header() {
-    const [notAmount, setNotAmount] = useState(data.length); 
-    const [isClicked, setIsClicked] = useState(false);
-    function decreaseCount() {
-        setNotAmount((prev) => prev - 1)
+  
+
+    const[notifications, setNotifications] = useState(
+        data.map((item) => ({...item, isClicked: false}))
+    )
+
+    function markAsRead(id) {
+        setNotifications(prev => 
+            prev.map(n => n.id === id ? {...n, isClicked: true} : n)
+        )
     }
+
+    const notAmount = notifications.filter(notification => !notification.isClicked).length;
+    
 
     function handleClick() {
         setIsClicked(true)
@@ -20,13 +29,13 @@ export default function Header() {
                     <section className="header">
                       <div className="header-title">
                         <span>Notifications</span>
-                        {notAmount > 0 ?  <div className="not-counter"><span>{notAmount}</span></div> : ""}
+                        {notAmount > 0 && ( <div className="not-counter"><span>{notAmount}</span></div>)}
                        
                       </div>
                       <p className="mark-title">Mark all as read</p>
                     </section>
                     {
-                        data.map((item) => (
+                        notifications.map((item) => (
                             <Notification 
                             image1={item.image}
                              name={item.name} 
@@ -34,9 +43,9 @@ export default function Header() {
                              post={item.post} 
                              key={item.id} 
                              time={item.time}
-                             onClickDescription={decreaseCount}
+                             onClickDescription={() => markAsRead(item.id)}
                              handleClick={handleClick}
-                             isClicked={isClicked}/>
+                             isClicked={item.isClicked}/>
                         ))
                     }   
             </div>
