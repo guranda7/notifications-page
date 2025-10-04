@@ -22,6 +22,13 @@ export default function Header() {
     function handleClick() {
         setIsClicked(true)
     }
+
+
+    function markAllAsRead() {
+        setNotifications(prev => prev.map(notification => ({...notification, isClicked: true})));
+        setNotAmount(0)
+    }
+
     
     return (
         <div>
@@ -32,7 +39,7 @@ export default function Header() {
                         {notAmount > 0 && ( <div className="not-counter"><span>{notAmount}</span></div>)}
                        
                       </div>
-                      <p className="mark-title">Mark all as read</p>
+                      <p className="mark-title" onClick={markAllAsRead}>Mark all as read</p>
                     </section>
                     {
                         notifications.map((item) => (

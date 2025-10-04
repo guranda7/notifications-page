@@ -19,8 +19,10 @@
     font-style: ExtraBold;
     font-size: 1.6rem;
     line-height: 100%;
+}
 
-
+.name:hover {
+    color: #0A327B;
 }
 .notification {
 background-color: aliceblue;
@@ -58,6 +60,9 @@ font-size: 1.6rem;
 line-height: 100%;
 }
 
+.not-post:hover {
+    color: #0A327B;
+}
 .not-time {
 color: grey;
 font-weight: 500;

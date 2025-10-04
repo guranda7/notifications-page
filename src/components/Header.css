@@ -31,8 +31,12 @@ font-style: Medium;
 font-size: 1.6rem;
 line-height: 100%;
 text-align: right;
+cursor: pointer;
 }
 
+.mark-title:hover {
+  color: #0A327B;
+}
 .not-counter {
   background-color: #0A327B;
   color: white;
